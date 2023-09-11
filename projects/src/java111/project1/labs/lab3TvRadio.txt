@@ -1,0 +1,63 @@
+#Radio
+Instance variables:
+	1.currentChannel
+	2.serialNumber
+	3.poweredOn
+	4.audioVolume
+	5.audioSource
+	6.audioOutput
+
+Methods:
+	1.powerOn
+	2.changeChannel
+	3.changeAudioVolume
+	4.changeAudioSource
+	5.changeAudioOutput
+
+
+
+
+#Telivision
+Instance variables:
+	1.currentChannel
+	2.serialNumber
+	3.poweredOn
+	4.audioVolume
+	5.audioSource
+	6.audioOutput
+	7.visualResolution
+	8.visualSource
+
+
+Methods:
+	1.powerOn
+	2.changeChannel
+	3.changeAudioVolume
+	4.changeAudioSource
+	5.changeAudioOutput
+	6.changeVisualResolution
+	7.changeVisualSource
+
+
+
+
+
+#DeviceSuperClass
+Instance variables:
+	1.currentChannel
+	2.serialNumber
+	3.poweredOn
+	4.audioVolume
+	5.audioSource
+	6.audioOutput
+
+
+Methods:
+	1.powerOn
+	2.changeChannel
+	3.changeAudioVolume
+	4.changeAudioSource
+	5.changeAudioOutput
+
+
+
