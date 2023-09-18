@@ -1,5 +1,5 @@
 
-class LabThreeTestDrive{
+public class LabThreeTestDrive{
 
     public static void main(String[] args){
         LabThree Fred = new LabThree();
