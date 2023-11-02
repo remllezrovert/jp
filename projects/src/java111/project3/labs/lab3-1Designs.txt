@@ -1,0 +1,52 @@
+
+
+Application one
+
+1. User starts calculator
+
+2. Calculator creates two integers and one double
+
+3. Calculator prompts user for input
+
+4. If user input is not equal to zero run the calculate method
+	a. If user input is equal to zero exit the program
+
+5. Restart at step one
+
+
+
+Application two
+
+1. User starts game
+
+2. Game initializes a number 'goldenNumber' to a random value
+
+3. Game prompts user for input userInput
+
+4. Game checks to see if userInput is greater than goldenNumber
+	a. Game prints a statement telling user to guess lower
+
+5. Game checks to see if userInput is less than goldenNumber
+	a. Game prints a statement telling user to guess higher
+
+6. Game checks to see if userInput is equal to goldenNumber
+	a. Game congradulates user on their correct guess
+	b. Game program closes
+
+
+Application Three
+
+1. Color initalizes an array called colorArray that contains strings which are colors.
+
+2. Color initilaizes an array called quoteArray that contains quotes. 
+	**note** quoteArray indexes match colorArray indexes
+
+3. Color promps the user for input 'userInput'
+
+4. If colorArray contains userInput, return the index 'colorIndex' where the input matches the string.
+	a. If there is no match, print a message telling the user to input a different color
+
+5. Print the quote in the quote array that has the index colorIndex
+	a. Exit out of the program
+
+

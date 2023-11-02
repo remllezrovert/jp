@@ -1,0 +1,31 @@
+
+
+
+
+//==================== Application Two =================================
+//IMPORT java.util.Random
+//DECLARE int goldenNumber
+//SET golden number equal to a random number with rand.nextInt()
+//IF: user input greater than golden number
+    //RETURN feedback telling user to guess lower
+//ELIF: user input less than goldenNumber
+    //RETURN feedback telling user to guess higher
+//ELIF: user feedback == goldenNumber
+    //RETURN: congratulations
+    //ENDIF
+
+
+
+
+
+
+//================ Application Three ====================================
+// DECLARE: two arrays, one to store colors and one to store quotes
+//GET: user input
+//REPEAT
+    //COMPARE: user input to strings in the color array
+    //IF: User input in color array
+        //RETURN: the value in the quote array with the same index
+    //ELSE
+        //RETURN: A string prompting the user to check their spelling
+//END REPEAT

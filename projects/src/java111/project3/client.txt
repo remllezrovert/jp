@@ -1,0 +1,45 @@
+
+final int seasonWeeks = 22;
+String name;
+private int lawnLength;
+private int lawnWidth;
+private int paymentQuantity;
+private double seasonCharge;
+private double serviceCharge;
+private double clientCost;
+
+
+//Getters
+getName
+getLawnLength
+getLawnWidth
+getPaymentQuantity
+getSeasonCharge
+getServiceCharge
+getClientCost
+
+//Setters
+setName
+setLawnWidth
+setLawnLength
+setPaymentQuantity
+
+chargeCalculation():
+	//calculate season charge
+	if squareYards >= 800
+	    seasonCharge $50 per week
+	else if squareYards >= 500
+	    seasonCharge $35 per week
+	else if  squareYards < 500
+	    seasonCharge $25 per week
+
+	//calculate service charge using switch case
+	switch
+	case 1 
+		serviceCharge = $0 per payment
+	case 2
+		serviceCharge = $5 per payment
+	case 22
+		serviceCharge = $3 per payment	
+		
+	clientCost = seasonCharge + serviceCharge

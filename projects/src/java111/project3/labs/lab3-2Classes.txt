@@ -1,0 +1,31 @@
+
+Application one
+    The Calculator class find the sum, difference, product, and quotient of two numbers.
+    The object in this class will know:
+        1. Two integers
+        2. One double
+    The object in this class will do:
+        1. Add integers and output the value.
+        2. Subtract integers and ouput the value.
+        3. Multiply integers and output the value.
+        4. Divide integers and output the value.
+        5. Exit the program is a value is equal to zero.
+
+
+Application two
+    The GuessingGame class promps the user to guess a number. Feedback is proveded after each guess.
+    The object in this class will know:
+        1. Each user guess
+    The object in this class will do:
+        1. Tell the user if their guess is too high
+        2. Tell the user if their guess is too low
+        3. Congratulate the user and close the program if the guess is correct.
+
+
+Application Three
+    The ColorQuotes class promps the uer to input a color, then outputs a quote that corisponds to that color.
+    The object in this class will know:
+        1. User input, hopefully a color
+        2. The internal array index of user input
+    The object in this class will do:
+        3. Output a quote from a pre-defined array of quotes if user input matches a string in an array of colors.

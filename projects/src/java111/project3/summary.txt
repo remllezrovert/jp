@@ -1,0 +1,45 @@
+import java.util.ArrayList;
+int totalSquareYards;
+double revenue;
+ArrayList<client> customers = new ArrayList<client>();
+bool keepLooping = true;
+
+createClient();
+    while keepLooping
+        create new input helper object ih1
+    try
+        create new client object
+        //get user input
+        set client.name to ih1.getUserInput("Enter client name:");
+        set client.lawnLength to ih1.getUserInput("Enter lawn length:");
+        set client.lawnWidth to ih1.getUserInput("Enter lawn width:");
+        set client.paymentQuantitiy to ih1.getUserInput("Enter the number of payments:");
+        append client onto the customers arrayList
+        keepLooping = (ih1.getUserInput("Enter another client?").toLowerCase.equals(y))
+    catch(Exception e) continue
+
+
+
+display():
+    for each client in customers
+
+        //display each client's information
+        print(
+            "Name: " + client.getName
+            "Lawn Size: " + client.getLawnLength
+            "Number of payments: " + client.getPaymentQuantity
+            "Ammount of each payment: "  + client.getSeasonCharge / client.getPaymentQuantity
+            "Total of all payments: " + client.getClientCost
+        )
+
+        //calculate totals for summary
+        revenue += client.getClientCost
+        totalSquareYards += client.getLawnLength * client.getLawnWidth;
+
+   //display the summary report 
+    print(
+        "number of clients:  " + customers.length
+        "revenue: " + revenue
+        "total area mowed: " + totalSquareYards
+    )
+
