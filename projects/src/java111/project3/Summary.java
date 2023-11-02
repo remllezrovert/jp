@@ -4,6 +4,8 @@ public class Summary {
 final int seasonWeeks = 22;
 private int totalSquareYards;
 private double revenue;
+
+
 private ArrayList<Client> customers = new ArrayList<Client>();
 
 /**@return totalSquareYards */

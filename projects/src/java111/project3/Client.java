@@ -12,6 +12,7 @@ public class Client{
     private double serviceCharge;
     private double clientCost;
 
+
 /**
  * @param newName
  */
@@ -85,11 +86,11 @@ public void chargeCalculation(){
     //Season Charge
     int squareYards = lawnLength * lawnWidth;
     if (squareYards >= 800){
-            seasonCharge = 50 * paymentQuantity;
+            seasonCharge = 50 * seasonWeeks;
     } else if (squareYards >= 500){
-            seasonCharge = 35 * paymentQuantity;
+            seasonCharge = 35 * seasonWeeks;
     } else if  (squareYards < 500){
-            seasonCharge = 25 * paymentQuantity;
+            seasonCharge = 25 * seasonWeeks;
     }
     //Service Charge
     switch (paymentQuantity){
