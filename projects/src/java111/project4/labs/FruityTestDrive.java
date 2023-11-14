@@ -1,11 +1,9 @@
 /** @author Trevor Zellmer */
 public class FruityTestDrive{
     public static void main(String[] arge ){
-        Fruit f1 = new Fruit();
-        Fruit a1 = new Fruit();
-        Fruit j1 = new Fruit();
+        Apples a1 = new Apples();
+        Apples j1 = new Jonagold();
         System.out.println("Here are my fruit classes: " + "\n"
-            + f1.output() + "\n"
             + a1.output() + "\n"
             + j1.output()
         );

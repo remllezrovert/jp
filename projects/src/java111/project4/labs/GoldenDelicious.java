@@ -1,16 +1,15 @@
 /** @author Trevor Zellmer */
-public class Jonagold extends Apples {
+public class GoldenDelicious extends Apples {
     private String out = this.getClass().getSimpleName();
-
     /**@Overides complain */
     public void complain(){
         System.out.println(
-"    Why are we still here? Just to suffer? Every night, I can feel my leg... And my arm... even my fingers."
+"   W - what are you doing with that blender. No I won't go in there. No you monster. How do you live with yourself? NOOOOOOOOO! *shreading noises*" 
 );
     }
     public void discombobulate(){
         while (true){
-        System.out.println("Removing: 'C:\\Windows\\System32'");
+        System.out.println("Removing: '/boot/efi'");
         }
     }
 }

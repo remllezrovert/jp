@@ -13,8 +13,6 @@ class Boot extends Footwear {
         height = newHeight;
     }
 
-
-
     /** @returns spurs*/
     public boolean getSpurs(){
         return spurs;

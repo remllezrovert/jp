@@ -1,8 +1,6 @@
 /** @author Trevor Zellmer */
-public class Fruit{
-    private String out = this.getClass().getSimpleName();
-    /** @return class name */
-    public String output(){
-        return out;
-    }
+public abstract class Fruit{
+public abstract String output();
+public abstract void complain();
+
 }
