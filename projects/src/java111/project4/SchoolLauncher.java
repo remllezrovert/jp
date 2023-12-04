@@ -23,7 +23,7 @@ class Menu{
         "Choose an option:"
         );
         System.out.println();
-        String input = scnr.next();
+        String input = scnr.nextLine();
         switch (input) {
             case "c": createMenu();
                 break;
@@ -51,7 +51,7 @@ class Menu{
         "q - Quit\n\n" +
         "Choose an option:"
         );
-        String input = scnr.next();
+        String input = scnr.nextLine();
         switch (input) {
             case "1": createHighSchooler();
                 break;
@@ -77,10 +77,11 @@ class Menu{
     try{
         System.out.println("Enter student id");
         int studentId = scnr.nextInt();
+        scnr.nextLine();
         System.out.println("Enter student name");
-        String studentName = scnr.next();
+        String studentName = scnr.nextLine();
         System.out.println("What does this student smell like?");
-        String smell = scnr.next();
+        String smell = scnr.nextLine();
         HighSchooler hs = new HighSchooler(studentId, studentName);
         school.add(hs);
         hs.setSmell(smell);
@@ -97,10 +98,12 @@ public Student createMiddleSchooler(){
     try{
         System.out.println("Enter student id");
         int studentId = scnr.nextInt();
+        scnr.nextLine();
         System.out.println("Enter student name");
-        String studentName = scnr.next();
+        String studentName = scnr.nextLine();
         System.out.println("What is their approximate depth (thickness)?");
         int feetThick = scnr.nextInt();
+        scnr.nextLine();
         MiddleSchooler ms = new MiddleSchooler(studentId, studentName);
         school.add(ms);
         ms.setFeetThick(feetThick);
@@ -117,8 +120,9 @@ public Student createElementarySchooler(){
     try{
         System.out.println("Enter student id");
         int studentId = scnr.nextInt();
+        scnr.nextLine();
         System.out.println("Enter student name");
-        String studentName = scnr.next();
+        String studentName = scnr.nextLine();
         ElementarySchooler es = new ElementarySchooler(studentId, studentName);
         school.add(es);
         System.out.println("Enter college degrees:");
@@ -136,14 +140,15 @@ public Student createKindergartner(){
     try{
         System.out.println("Enter student id");
         int studentId = scnr.nextInt();
+        scnr.nextLine();
         System.out.println("Enter student name");
-        String studentName = scnr.next();
+        String studentName = scnr.nextLine();
         Kindergartner kg = new Kindergartner(studentId, studentName);
         school.add(kg);
         System.out.println("Enter Homeroom teacher:");
-        kg.setHomeRoomTeacher(scnr.next());
+        kg.setHomeRoomTeacher(scnr.nextLine());
         System.out.println("Enter a show & tell item:");
-        kg.setShowAndTell(scnr.next());
+        kg.setShowAndTell(scnr.nextLine());
         System.out.println("Enter extracurricular activities:");
         kg.setActivities(listHandler());
         createMenu();
@@ -180,6 +185,7 @@ public Student createKindergartner(){
         try{
         System.out.println("Enter a student id:");
         int studentId = scnr.nextInt();
+        scnr.nextLine();
         System.out.println("----------------------- BEGIN TEST -------------------------");
 
         switch (studentById(studentId).getClass().getSimpleName()) {
@@ -230,11 +236,11 @@ public Student createKindergartner(){
     public ArrayList<String> listHandler(){
     ArrayList<String> arr = new ArrayList<String>();
     try{
-    String input = scnr.next();
+    String input = scnr.nextLine();
     while(!input.equals("e")){
         arr.add(input);
         System.out.println("Enter another value, or 'e' to exit:");
-        input = scnr.next();
+        input = scnr.nextLine();
         }
     } catch(Exception e) {
         System.out.println("-------------------- INVALID INPUT -------------------------");
