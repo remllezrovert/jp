@@ -13,13 +13,13 @@ public class Neighbor {
         this.size = 27;
     }
 
-    /** @param newSize */
+    /** @param newSize - New size to set the neighbor class to */
     Neighbor(int newSize){
         Neighbor n = new Neighbor();
         this.color = "Purple";
         this.size = newSize;
     }
-    /** @param newColor */
+    /** @param newColor - New color to set the neighbor class to.*/
     Neighbor(String newColor){
         Neighbor n = new Neighbor();
         this.color = newColor;

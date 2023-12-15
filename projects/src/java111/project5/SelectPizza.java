@@ -1,9 +1,13 @@
 package java111.project5;
 
-/** @author Trevor Zellmer */
+/** This is a menu allowing users to select their pizza size.
+ * @author Trevor Zellmer 
+ */
 public class SelectPizza {
-
-/** This is a menu allowing uses to select their pizza size */
+ /** This prints all of the pizza sizes and prompts the user to choose one.
+ * It prints out which pizza the user has selected.
+ *  @throws Exception - Invalid user input or input out of bounds
+ */
     public void processSelection()
         throws Exception {
         char selection;

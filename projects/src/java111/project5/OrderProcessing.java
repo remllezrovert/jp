@@ -1,14 +1,17 @@
 package java111.project5;
 import java.util.ArrayList;
-/** @author Trevor Zellmer */
-
-/** Creates a list of Orders, populates them, calls their methods. */
+/**  This class is for creating and displaying multiple ordrers.
+ * This class can create and populate multiple Orders and OnlineOrders
+ *  and store them in an ArrayList to be read out and calculated.
+ * @author Trevor Zellmer 
+ */
 public class OrderProcessing {
     ArrayList<Order> arr = new ArrayList<Order>();
 
     /** Creates a list with one Order and one OnlineOrder object */
     void populateList(){
-    Order o1 = new Order("Muhammad", 
+    Order o1 = new Order(
+        "Muhammad", 
         1, 
         "Widget",
         7,
@@ -31,8 +34,9 @@ public class OrderProcessing {
         order.calculate();
     }
 
-    /** Loops through a lost of Orders calling their toString methods */
-    /** @return orderList - A list of toString output from all orders */
+    /** Loops through a lost of Orders calling their toString methods
+    * @return orderList - A list of toString output from all orders 
+    */
     String displayList(){
         String ret = "";
         for(int i = 0; i < arr.size(); i++) {
